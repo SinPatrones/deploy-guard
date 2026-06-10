@@ -1,0 +1,14 @@
+# Fuente y configuración (no se publican; solo va dist/)
+src
+tsconfig.json
+tsup.config.ts
+
+# Artefactos de desarrollo
+node_modules
+*.log
+.DS_Store
+.vscode
+.idea
+
+# Drafts internos
+*.draft.md

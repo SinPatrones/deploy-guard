@@ -1,0 +1,53 @@
+# Dependencias
+node_modules/
+.pnp/
+.pnp.js
+
+# Salida de build
+dist/
+build/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Caches
+.npm/
+.eslintcache
+.cache/
+.turbo/
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# Cobertura de tests
+coverage/
+*.lcov
+.nyc_output/
+
+# Artefactos de empaquetado
+*.tgz
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+*.draft.md
+.claude
+/docs
